@@ -4,7 +4,8 @@ Feature: sample karate test script
         * url 'https://jsonplaceholder.typicode.com'
         * header Accept = 'application/json'
 
-    Scenario: get all posts
+    Scenario: post posts
         Given path 'posts'
-        When method GET
-        Then status 200
+        And request {"title": "My test", "body": "Testing API with Karate"}
+        When method POST
+        Then status 201
