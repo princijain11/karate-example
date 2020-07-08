@@ -15,16 +15,17 @@
     <!-- https://mvnrepository.com/artifact/com.intuit.karate/karate-junit4 -->
     <dependency>
       <groupId>com.intuit.karate</groupId>
-      <artifactId>karate-junit5</artifactId>
-      <version>0.9.5</version>
+      <artifactId>karate-junit4</artifactId>
+      <version>0.9.4</version>
+      <scope>test</scope>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/com.intuit.karate/karate-apache -->
     <dependency>
       <groupId>com.intuit.karate</groupId>
       <artifactId>karate-apache</artifactId>
-      <version>0.9.5</version>
-
+      <version>0.9.4</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
   <build>
@@ -36,13 +37,6 @@
         </excludes>
       </testResource>
     </testResources>
-     <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>2.22.2</version>
-        </plugin>
-    </plugins>
   </build>
   
 </project>
