@@ -17,7 +17,6 @@
       <groupId>com.intuit.karate</groupId>
       <artifactId>karate-junit5</artifactId>
       <version>0.9.5</version>
-      <scope>test</scope>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/com.intuit.karate/karate-apache -->
@@ -25,7 +24,7 @@
       <groupId>com.intuit.karate</groupId>
       <artifactId>karate-apache</artifactId>
       <version>0.9.5</version>
-      <scope>test</scope>
+
     </dependency>
   </dependencies>
   <build>
